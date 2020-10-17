@@ -1,0 +1,17 @@
+body{
+    background-color: black !important;
+}
+.col-md-6{
+    margin-top: 30px;
+}
+.header-h2{
+    color:rgb(240, 236, 236);
+    font-family: Poppings;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+    
+}
+.blue{
+    color: rgb(43, 43, 196);
+}
