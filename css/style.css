@@ -1,5 +1,5 @@
 body{
-    background-color: black !important;
+    background-color: rgb(32, 32, 32) !important;
 }
 .col-md-6{
     margin-top: 30px;
@@ -14,4 +14,22 @@ body{
 }
 .blue{
     color: rgb(43, 43, 196);
+}
+
+
+
+.h3{
+    color:rgb(240, 236, 236);
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: normal;
+    
+}
+.orange{
+    color:white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 10px;
+    font-style: normal;
 }
