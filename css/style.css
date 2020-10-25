@@ -18,13 +18,21 @@ body{
 
 
 
-.h3{
+.about-h2{
     color:rgb(240, 236, 236);
     font-family: Poppins;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 25px;
     font-style: normal;
     
+}
+.about-h2:after{
+    position: absolute;
+content: "";
+width: calc(100% - 440px);
+border: 1px solid rgb(160, 156, 156);
+left: 16px;
+top: 40px;
 }
 .orange{
     color:white;
@@ -32,4 +40,40 @@ body{
     font-weight: bold;
     font-size: 10px;
     font-style: normal;
+}
+.about-sec{
+    margin-top: 50px;
+}
+.about-img{
+    border-radius: 50% !important;
+}
+.about-styled{
+    color: rgb(4, 4, 247);
+    font-size: 30px;
+    margin-top: 24px;
+    font-weight: 600;
+}
+.about-desc{
+    color: #fff;
+    font-family: Poppins;
+}
+.about-btn{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.resume-btn{
+    border: 0px;
+    color: #fff;
+    background-color: rgb(4, 4, 247);
+    border-radius: 6px;
+    padding: 8px;
+}
+.hire-btn{
+    margin-left: 50px;
+    border: 2px solid rgb(160, 156, 156);
+    color: #fff;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 6px;
+    width: 100px;
 }
