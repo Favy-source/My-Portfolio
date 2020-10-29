@@ -94,6 +94,12 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(255, 255, 255);
 }
 
+/* .sec-row{
+    margin-top: 60px !important;
+} */
+.portfolio img{
+width: 300px !important;
+}
 
 .pink{
     text-align: center;
@@ -103,14 +109,31 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(51, 51, 51);
     /* border-color: rgb(84, 147, 247); */
 }
+.load-more{
+    margin-top: 30px;
+    margin-left: 500px;
+    border: 0px;
+    background-color: rgb(0, 162, 255);
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+}
+.blue {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 
 a:not([href]):not([tabindex]) {
     color: inherit;
     text-decoration: none;
 }
-@media (max-width: 768px)
+@media screen and (max-width: 480px){
+    .about-img{
+        width: 100px !important;
+    }
+}
 
-filter a {
+.filter a{
     font-size: 13px;
     padding: 5px 8px;
 }

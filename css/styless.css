@@ -236,7 +236,13 @@ body{
 .bar li:active{
     color: blue;
 }
-
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+  .activeClass{
+      background-color: #fff;
+  }
 
 
 .bar li.active + li:after{
