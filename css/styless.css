@@ -25,7 +25,7 @@ body{
 }
 
 .navbar-nav .nav-link{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -118,16 +118,16 @@ body{
 }
 
 .about-h2{
-    font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 36px;
-line-height: 54px;
-/* identical to box height */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    /* identical to box height */
 
-text-transform: uppercase;
+    text-transform: uppercase;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .img-1{
@@ -143,11 +143,34 @@ color: #FFFFFF;
     /* identical to box height */
     
     text-transform: uppercase;
-    
+    margin-bottom: 80px;
+    margin-top: 50px;
     color: #FFFFFF !important;
     text-align: center;  
 }
 
+.hollow{
+   position: flex;
+    width: 71px;
+    height: 54px;
+    left: 273px;
+    top: 1619px;
+    color: #C4C4C4;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    display: inline-flex;
+    text-transform: uppercase;
+    color: #C4C4C4;
+}
+
+
+.years{
+    display: flex;
+    justify-content: space-evenly;
+}
 .bar{
     counter-reset: step;
     margin-top: 45px;
@@ -221,4 +244,29 @@ color: #FFFFFF;
 }
 .bar li:before{
     color: blue;
+}
+
+
+.pop{
+    /* position: absolute;
+width: 197px;
+height: 54px;
+left: 621px;
+top: 2002px; */
+
+/* h1 */
+
+font-family:'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+margin-top: 20%;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #FFFFFF;
+
 }
