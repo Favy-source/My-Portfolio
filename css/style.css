@@ -203,14 +203,36 @@ ol, ul {
     list-style: none;
 }
 
-.card-in{
-    /* width: 400px;
-    height: 350px;
-    padding: 20px;
-    text-align: center;
-    margin: 0 10px;
-    background-color:  rgb(32, 32, 32) !important;
-    transition: .5s; */
+.card-body{
+    background: rgb(44, 43, 43);
+    padding: 60px;
+}
+.card-body h6{
+    margin-top: 50px;
+}
+/* .card-i-do-one{
+    background: rgb(44, 43, 43);
+    margin-right: 33px;
+    padding: 30px;
+}
+.card-i-do-two{
+    background: rgb(49, 46, 46);
+    margin: 0px,-40px, 0px, 0px;
+    padding: 30px;
+}
+.card-i-do-three{
+    background: rgb(49, 46, 46);
+    margin: 10px;
+    padding: 30px;
+}
+.card-i-do-four{
+    background: rgb(49, 46, 46);
+    margin-right: -120px;
+    padding: 30px;
+} */
+
+/* .card-in{
+  
     position: absolute;
     left: 15%;
     right: 78.81%;
@@ -258,7 +280,6 @@ ol, ul {
 }
 
 
-/* hover-section */
 .card-in:hover p{
     opacity: 1;
     transition: .5s;
@@ -273,7 +294,6 @@ ol, ul {
 }
 
 .card-in:hover :nth-child(1){
-    /* opacity: 1; */
     transition: .5s;
 }
- 
+  */
